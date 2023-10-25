@@ -26,5 +26,6 @@ export class AppComponent {
   protected readonly hasChild = (_: number, node: CountryNode) => !!node.children && node.children.length > 0;
 
   public getTree(): CountryNode[] {
+    return [];
   }
 }
